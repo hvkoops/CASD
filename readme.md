@@ -44,28 +44,29 @@ We find that within the CASD, annotators disagree about chord labels. The next f
 
 This figure shows the [*chromagram*](https://en.wikipedia.org/wiki/Chroma_feature) of the annotators for song 92 in the dataset. The horizontal axis represents time, the vertical axis represents the 12 pitch classes of a single octave. The figure shows that the annotators differ in level of detail in time, as well as in pitch classes per chord. This figure was generated with [this script](misc/plot_chromas.py).
 
-### Technical Report on Annotator Subjectivity
+### Research on Annotator Subjectivity
 
-If you are interested in a detailed analysis of the annotator subjectivity found in the CASD, please find our technical report: 
+If you are interested in a detailed analysis of the annotator subjectivity found in the CASD, please refer to our publication in the *Journal of New Music Research*: 
 
-Koops, H.V., de Haas, W.B., Burgoyne, J.A., Bransen, J., Volk, A.: [*"Technical Report: Harmonic Subjectivity in Popular Music."*](http://www.cs.uu.nl/research/techreps/repo/CS-2017/2017-018.pdf) Tech. Rep. UU-CS-2017-018, Department of Information and Computing Sciences, Utrecht University (2017)
+Hendrik Vincent Koops, W. Bas de Haas, John Ashley Burgoyne, Jeroen Bransen, Anna Kent-Muller & Anja Volk (2019) [Annotator subjectivity in harmony annotations of popular music](https://www.tandfonline.com/doi/full/10.1080/09298215.2019.1613436), *Journal of New Music Research*, 48:3, 232-252, DOI: 10.1080/09298215.2019.1613436
 
-See the [Utrecht University website](http://www.cs.uu.nl/research/techreps/UU-CS-2017-018.html) for more information.
-
-If you want to cite this technical report, please use the following bibtex entry:
-
-`@TECHREPORT{UUCS2017018,
-author = {Koops, Hendrik~Vincent and Haas, Bas~de and Burgoyne, John~Ashley and Bransen, Jeroen and Volk, Anja},
-year = 2017,
-title = {Harmonic Subjectivity in Popular Music},
-number = {UU-CS-2017-018},
-institution = {Department of Information and Computing Sciences, Utrecht University},
-urlpdf = {{http://www.cs.uu.nl/research/techreps/repo/CS-2017/2017-018.pdf}},
-pubcat = {techreport}
+```tex
+@article{doi:10.1080/09298215.2019.1613436,
+author = {Hendrik Vincent Koops and W. Bas de Haas and John Ashley Burgoyne and Jeroen Bransen and Anna Kent-Muller and Anja Volk},
+title = {Annotator subjectivity in harmony annotations of popular music},
+journal = {Journal of New Music Research},
+volume = {48},
+number = {3},
+pages = {232-252},
+year  = {2019},
+publisher = {Routledge},
+doi = {10.1080/09298215.2019.1613436},
+URL = {https://doi.org/10.1080/09298215.2019.1613436},
+eprint = {https://doi.org/10.1080/09298215.2019.1613436}
 }
-`
+```
 
-A formal publication based on this technical report is underway.
+Please cite this publication if you use the CASD in your research.
 
 ## Contributing
 
@@ -107,6 +108,12 @@ The *Chordify Annotator Subjectivity Dataset* was introduced at the late breakin
 
 [![Poster](img/ISMIR2017_LBposter.png)](img/ISMIR2017_LBposter.pdf)
 [![Abstract](img/ISMIR2017_LBD.png)](https://ismir2017.smcnus.org/lbds/Koops2017.pdf)
+
+### Journal paper
+
+In a paper published in the [*Journal of New Music Research*](https://www.tandfonline.com/doi/full/10.1080/09298215.2019.1613436), we provide background information and a statistical analysis of annotator subjectivity in the CASD:
+
+[![JNMR](https://www.tandfonline.com/na101/home/literatum/publisher/tandf/journals/content/nnmr20/2019/nnmr20.v048.i02/nnmr20.v048.i02/20190301-01/nnmr20.v048.i02.cover.jpg)](https://www.tandfonline.com/doi/full/10.1080/09298215.2019.1613436)
 
 ## Authors
 
